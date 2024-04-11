@@ -31,6 +31,11 @@ public class Position {
 		return  row + ", " + column;
 	}
 	
+	public void setValues(Integer row, Integer collumn) {
+		this.row = row;
+		this.column = collumn;
+	}
+	
 	
 	
 	
